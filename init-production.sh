@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 SEED_PROJECT_ID="gewestack-test-seed-project"
 BILLING_ACCOUNT_ID="016452-6E0FF0-80E88A"
