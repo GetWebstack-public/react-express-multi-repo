@@ -1,0 +1,13 @@
+# Ignore at any level terraform.tfstate
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/terraform.tfstate.backup.*
+
+# Ignore .terraform directories
+**/.terraform/*
+
+# Ignore .idea directories
+**/.idea/*
+
+# Ignore .vscode directories
+**/.vscode/*

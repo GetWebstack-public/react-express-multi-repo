@@ -1,0 +1,6 @@
+[submodule "test-infra-front"]
+	path = test-infra-front
+	url = git@github.com:test-infra-consult/test-infra-front.git
+[submodule "test-infra-api"]
+	path = test-infra-api
+	url = git@github.com:test-infra-consult/test-infra-api.git
