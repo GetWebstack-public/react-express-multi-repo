@@ -11,3 +11,4 @@
 
 # Ignore .vscode directories
 **/.vscode/*
+./drivers/kubeadm/scripts/03_kubeadm_join.sh
