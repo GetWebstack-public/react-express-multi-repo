@@ -1,6 +1,6 @@
 [submodule "express-server"]
 	path = express-server
-	url = https://github.com/GetWebstack-public/express-server
+	url = git@github.com:GetWebstack-public/express-server.git
 [submodule "react-app"]
 	path = react-app
-	url = https://github.com/GetWebstack-public/react-app
+	url = git@github.com:GetWebstack-public/react-app.git
