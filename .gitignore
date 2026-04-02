@@ -1,14 +1,8 @@
-# Ignore at any level terraform.tfstate
-**/terraform.tfstate
-**/terraform.tfstate.backup
-**/terraform.tfstate.backup.*
-
-# Ignore .terraform directories
-**/.terraform/*
+# Ignore worktree directories
+**/.worktree
 
 # Ignore .idea directories
 **/.idea/*
 
 # Ignore .vscode directories
 **/.vscode/*
-./drivers/kubeadm/scripts/03_kubeadm_join.sh
