@@ -1,0 +1,30 @@
+{
+  "name": "react-express-mono-repo",
+  "version": "1.0.0",
+  "registry": {
+    "mode": "local"
+  },
+  "services": [
+    {
+      "name": "react-app",
+      "path": "react-app",
+      "image": "react-app",
+      "manifests": ".gws/k8s",
+      "dockerfile": ".gws/Dockerfile"
+    },
+    {
+      "name": "express-server",
+      "path": "express-server",
+      "image": "express-server",
+      "manifests": ".gws/k8s",
+      "dockerfile": ".gws/Dockerfile"
+    }
+  ],
+  "provision": {
+    "environments": {
+      "dev": {
+        "type": "k3d"
+      }
+    }
+  }
+}
