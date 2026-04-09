@@ -1,4 +1,4 @@
-# react-express-mono-repo
+# react-express-multi-repo
 
 A multi-repo project managed with [gws](https://getwebstack.com) (GetWebstack CLI). The workspace is defined in `gws.json` and contains two services:
 
