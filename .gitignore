@@ -6,3 +6,5 @@
 
 # Ignore .vscode directories
 **/.vscode/*
+# GetWebStack CLI - Environment worktrees
+.worktrees
